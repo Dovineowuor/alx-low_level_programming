@@ -1,17 +1,26 @@
+/*
+ * File: 4-print_alphabt.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
+
 /**
- * Main prints some letters of the alphabet
+ * main - Prints the alphabet in lowercase, except for q and e.
  *
- * Return : Always (Success.)
+ * Return: Always 0.
  */
 int main(void)
 {
-  char c;
-  for (c!='q'; c <= 'z'; c++
+  char letter;
+
+  for (letter = 'a'; letter <= 'z'; letter++)
     {
-      if (c!='e'&& c! = 'q'
-	  putchar(c);
-	  }
-      putchar ('\n');
-      return (0);
+      if (letter != 'e' && letter != 'q')
+	putchar(letter);
     }
+
+  putchar('\n');
+
+  return (0);
+}
