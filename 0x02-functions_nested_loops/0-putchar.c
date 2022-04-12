@@ -1,22 +1,13 @@
-#include "stdio.h"
-#include "0-putchar.h"
-#include "main.h"
+#include <unistd.h>>
 
 /**
-* main - Print the word "Holberton"
-*
-* Return: Always 0 (Success)
-*/
-
-int main(void)
+ * _putchar - writes the character c to stdout 
+ * @c: The character to print
+ *
+ * Return: On success 1
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
 {
-char h[] = "ALx Software engineering";
-int i;
-
-for (i = 0; i < 9; i++)
-{
-_putchar(h[i]);
-}
-_putchar('\n');
-return (0);
+	return (write(1, &c, 1))
 }
