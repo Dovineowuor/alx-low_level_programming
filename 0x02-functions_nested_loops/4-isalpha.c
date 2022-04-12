@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-*  * _isalpha - alphabet case checker. Return  if true and 0 if fals
-*  *    * @c: integer parameter
-*    * Return: Returns value
-*     */
+* _isalpha - alphabet case checker. Return  if true and 0 if fals
+* @c: integer parameter
+* Return: Returns value
+*/
 
 int _isalpha(int c)
 {
