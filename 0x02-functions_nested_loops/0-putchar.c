@@ -1,4 +1,5 @@
 #include "0-putchar.h"
+#include "main.h"
 
 /**
  * main - Print the word "Holberton"
