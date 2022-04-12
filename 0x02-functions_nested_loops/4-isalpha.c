@@ -1,25 +1,6 @@
 #include "main.h"
 
 /**
-* _islower - Short descritpion, single line
-* @c: contains value to be compared
-* Return: Always 0.
-
-int _isalpha(int c)
-{
-if (c > 'a' && c < 'z')
-{
-return (1);
-}
-
-else
-{
-return (0);
-}
-}
-*/
-
-/**
 * _isalpha - alphabet case checker. Return  if true and 0 if false
 * @c: integer parameter
 * Return: Returns value
