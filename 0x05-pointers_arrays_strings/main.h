@@ -1,12 +1,24 @@
-#include "main.h"
-#include <stdio.h>
+#ifndef MAIN_H
+#define MAIN_H
+
 /**
-* reset_to_98 - a function that takes a pointer to an int as parameter
-* and updates the value it points to to 98
-* @n: input
-* Return: n
+* Description: Header file containing prototypes for all functions
+* used in the 0x05-pointers_arrays_strings directory
 */
-void reset_to_98(int *n) 
-{
-  *n = 98; 
-}
+
+#include <stdio.h>
+
+int _putchar(char c);
+void reset_to_98(int *n);
+void swap_int(int *a, int *b);
+int _strlen(char *s);
+void _puts(char *str);
+void print_rev(char *s);
+void rev_string(char *s);
+void puts2(char *str);
+void puts_half(char *str);
+void print_array(int *a, int n);
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
+
+#endif
