@@ -1,16 +1,6 @@
 #include "main.h"
 
 /**
-* *_strcat - concantenates two strings
-* @dest: The string to be appended upon
-* @src: The strng to be appended to dest
-* @n: The number of bytes from src to be appended to
-*
-* Return: A pointer to the resulting string dest
-*/
-#include "main.h"
-
-/**
  * *_strcat - concantenates two strings
  * @dest: The string to be appended upon
  * @src: The strng to be appended to dest
