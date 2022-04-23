@@ -1,0 +1,1 @@
+This repository showcases programs for practice purposes as a student in the Holberton School
