@@ -1,14 +1,21 @@
-#inclide "main.h"
-
-/*
-* @_strspn: The main function locating the prefix in a  string
-*@return: return the output
-*@s: The destination pointer
-*@c: source character
-*/
-
-char *_strchr(char *s, char c)
+#include "main.h"
+/**
+ * _strpbrk - locates the first occurrence in a string of any bytes
+ * @s: string to search
+ * @accept: search criteria
+ * Return: pointer to first occurrence on success, else null.
+ */
+char *_strpbrk(char *s, char *accept)
 {
-char *ret = strchr(s, c);
-return(ret)
+	int i, j;
+
+	for (i = 0; *(s + i); i++)
+	{
+		for (j = 0; *(accept + j); j++)
+		{
+			if (*(s + i) == *(accept + j))
+				return (s + i);
+		}
+	}
+	return (0);
 }
