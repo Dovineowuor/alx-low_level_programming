@@ -1,5 +1,5 @@
-#ifndef 'main.h'
-#define 'main.h'
+#ifndef MAIN
+#define MAIN
 
 /**
 *File:alx
