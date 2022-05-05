@@ -1,22 +1,23 @@
 #include "main.h"
-
 /**
-* _isalpha - alphabet case checker. Return  if true and 0 if fals
-* @c: integer parameter
-* Return: Returns value
-*/
-
+ * _isalpha - function that checks for alphabetic character
+ * @c: - is the character to be checked
+ * Return: 1 if c is a letter,lowercase or uppercase, 0 if c is otherwise
+ */
 int _isalpha(int c)
 {
-int value;
-
-if ((c >= 'A' || c >= 'a') && (c <= 'Z' || c <= 'z'))
+int result;
+if (c >= 'a' && c <= 'z')
 {
-value = 1;
+	result = 1;
+}
+else if (c >= 'A' && c <= 'Z')
+{
+	result = 1;
 }
 else
 {
-value = 0;
+	result = 0;
 }
-return (value);
+return (result);
 }

@@ -1,16 +1,19 @@
 #include "main.h"
-
 /**
-* _abs - computes the absolute balue of an integer
-* @n: integer type parameter
-* Return: return 0
-*/
-
+ * _abs - computes absolute value of a number
+ * @n: - is the character to be checked
+ * Return: Always 0
+ */
 int _abs(int n)
 {
-if (n < 0)
+int result;
+if (n >= 0)
 {
-n = (-1) * n;
+	result = n;
 }
-return (n);
+else if (n <= 0)
+{
+	result = -n;
+}
+return (result);
 }

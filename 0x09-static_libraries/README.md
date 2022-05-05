@@ -1,1 +1,1 @@
-0x09-static_libraries directory README file
+Holds my solution submission for "0x09. C - Static libraries" tasks
