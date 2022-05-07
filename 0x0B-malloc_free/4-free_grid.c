@@ -19,4 +19,4 @@ void free_grid(int **grid, int height)
 		free(grid);
 	}
 }
-//4-free_grid.c
+
