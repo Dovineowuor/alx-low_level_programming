@@ -1,5 +1,3 @@
-//100-argstostr.c
-
 #include "main.h"
 #include <stdlib.h>
 
