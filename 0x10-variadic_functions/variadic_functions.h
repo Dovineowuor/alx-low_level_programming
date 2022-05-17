@@ -1,9 +1,5 @@
 #ifndef VAR_FUNCS_H
 #define VAR_FUNCS_H
-/*
-* This is the main variadic header file
-*@ifndef VAR_FUNCS_H: defines the variadic functions header
-*/
 #include <stdio.h>
 #include <stdarg.h>
 
