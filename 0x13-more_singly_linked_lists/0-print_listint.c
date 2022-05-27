@@ -1,5 +1,5 @@
-#include "lists.h" 
-
+#include "lists.h"
+#include <stdio.h>
 
 /**
  *
@@ -14,22 +14,16 @@
  *      */
 
 size_t print_listint(const listint_t *h)
-
 {
+	const listint_t *tp;
+	unsigned int cntr = 0;
 
-size_t nnodes = 0;
-
-
-
-while (h != NULL)
-
-{
-
-printf("%d\n", h->n);
-
-h = h->next;
-
-nnodes++;
-
-return (nnodes);
+	tp = h;
+	while (tp)
+	{
+		printf("%d\n", tp->n);
+		cntr++;
+		tp = tp->next;
+	}
+	return (cntr);
 }
