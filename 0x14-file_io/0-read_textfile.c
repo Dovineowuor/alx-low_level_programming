@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * read_textfile - Entry Point
@@ -30,7 +30,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buf[letters] = '\0';
 
 	wr = write(1, buf, rd);
-	if (wr == -1)
+	if (wr == 0)
 		return (0);
 
 	close(file);
