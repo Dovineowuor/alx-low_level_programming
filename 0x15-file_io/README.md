@@ -1,23 +1,36 @@
-## 0x15. C - File I/O
+# 0x15. C - File I/O
 
-## Resources
+## Description
+What you should learn from this project:
 
-Read or watch:
+* Look for the right source of information online
+* How to create, open, close, read and write files
+* What are file descriptors
+* What are the 3 standard file descriptors, what are their purpose and what are their POSIX names
+* How to use the I/O system calls open, close, read and write
+* What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR
+* What are file permissions, and how to set them when creating a file with the open system call
+* What is a system call
+* What is the difference between a function and a system call
 
-<a href="https://en.wikipedia.org/wiki/File_descriptor">File descriptors</a>
-<a href="https://www.youtube.com/watch?v=dP3N8g7h8gY">C Programming in Linux Tutorial #024 - open() read() write() Functions</a>
+---
 
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+### [0. Tread lightly, she is near](./0-read_textfile.c)
+* Write a function that reads a text file and prints it to the POSIX standard output.
 
-<ul>
-<li>Look for the right source of information online</li>
-<li>How to create, open, close, read and write files</li>
-<li>What are file descriptors</li>
-<li>What are the 3 standard file descriptors, what are their purpose and what are their POSIX names</li>
-<li>How to use the I/O system calls open, close, read and write</li>
-<li>What are and how to use the flags O_RDONLY, O_WRONLY, O_RDWR</li>
-<li>What are file permissions, and how to set them when creating a file with the open system call</li>
-<li>What is a system call</li>
-<li>What is the difference between a function and a system call</li>
-</ul>
+
+### [1. Under the snow](./1-create_file.c)
+* Create a function that creates a file.
+
+
+### [2. Speak gently, she can hear](./2-append_text_to_file.c)
+* Write a function that appends text at the end of a file.
+
+
+### [3. cp](./3-cp.c)
+* Write a program that copies the content of a file to another file.
+
+---
+
+## Author
+* **Dovine Owuor** - [Dovine Owuor](https://github.com/Dovineowuor)
