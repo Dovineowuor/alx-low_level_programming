@@ -12,7 +12,7 @@ void print_all(const char * const format, ...);
 
 
 /**
- * struct printTypeStruct - struct definition of entry sign
+ * struct print: TypeStruct - struct definition of entry sign
  * @t: type of arg
  * @f: function to print type of args
  */
