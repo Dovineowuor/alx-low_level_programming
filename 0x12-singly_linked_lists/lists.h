@@ -1,4 +1,4 @@
-#ifndef LIST_F
+#ifndef LIST_
 #define LIST_F
 
 #include <stdio.h>
