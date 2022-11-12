@@ -40,4 +40,4 @@
 </break>
 
 <h2>Acknowledgemnts</h2>
-<p>All the projects contained in this repository was completed as part of the curriculum for ALX, Holberton School, Cohot 5, 2022. ALX, Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit <a href="https://www.holbertonschool.com/">this link.</a></p>
+<p>All the projects contained in this repository was completed as part of the curriculum for ALX, Holberton School, Cohot 6, 2022. ALX, Holberton School is a campus-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit <a href="https://www.holbertonschool.com/">this link.</a></p>
