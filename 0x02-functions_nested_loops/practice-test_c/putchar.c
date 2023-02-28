@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include"_putchar.c"
+/*#include"_putchar.c"*/
 #include "putchar.h"
 /*
 *putchar: A function that prints putchar
