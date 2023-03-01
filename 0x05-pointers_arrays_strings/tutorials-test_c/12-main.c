@@ -1,4 +1,4 @@
-/**
+#include <stdio.h>/**
  * main - Creates an array of chars and prints it
  *
  * Return: Always 0.
